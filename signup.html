@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Code Classroom</title>
+		<link rel="stylesheet" type="text/css" href="CC.css">
+	</head>
+	<body>
+		<div id="heading">
+			<a href="home.html">Code Classroom</a>
+			<div id="topbuttons">
+				<button id="btn" onclick="">About Us</button>
+				<button id="btn" onclick="">Contact</button>
+				<button id="btn" onclick="">Help</button>
+			</div>
+		</div>
+		<div id="form">
+			<form id="fntclr" method="POST" action="">
+				<input type="text" name="name" placeholder="Name">
+				<input type="text" name="email" placeholder="Email">
+				<input type="password" name="pswd" placeholder="Password">
+				<input type="password" name="repswd" placeholder="Retype Password"><br>
+				<input type="radio" name="Person" value="Teacher" onclick="document.getElementById('TCode').style.display='block'"><font size="2pt"> Teacher</font>
+				<input type="radio" name="Person" value="Student" onclick="document.getElementById('TCode').style.display='none'" checked><font size="2pt"> Student</font><br>
+				<span id="TCode" style="display: none;"><input id="fntclr" type="text" name="TeacherCode" placeholder="eg. #54cef9" size="7" maxlength="7"> <small>  Enter identity code</small></span>
+				<input id="roundbtn" type="submit" value="Create An Account"><br><br>
+				<small>By signing up, you are agree to our terms of service and privacy policy.</small>
+			</form>
+		</div>
+		<div id="intro">
+			<h1 id="big">A great place for all your <br>projects and assignments!</h1>
+			<h3>Real Education. Real Results.</h3>
+			<p id="fntclr">A platform for the management of Programming <br>assignments and projects in Universities/Schools.
+			</p>
+		</div>
+	</body>
+</html>

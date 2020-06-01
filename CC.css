@@ -1,7 +1,36 @@
+@font-face{
+	font-family: SFProDisplayReg;
+	src: url(SF-Pro-Display-Regular.otf);
+}
+
+@font-face{
+	font-family: RobotoReg;
+	src: url(Roboto-Regular.ttf);
+}
+
+body{
+	font-family:SFProDisplayReg;
+	/*font-family: RobotoReg;*/
+}
+
+#heading{
+	margin: 16px auto;
+}
+
+#heading > a{
+	font-size: 25px;
+	color: #606060;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#topbuttons{
+	width: 198px;
+	float: right;
+}
+
 #btn{
 	color: #606060;
-	float: right;
-	/*padding: 1;*/
 	background: none;
 	border: none;
 }
@@ -9,28 +38,137 @@
 #signupbtn{
 	border: 1px solid #707070;
 	color: #606060;
-	float: right;
 	background: #FFFFFF;
-	border-radius: 9px;
+	border-radius: 6px;
+	padding: 10px 16px;
+	cursor: pointer;
+}
+
+button > a{
+	text-decoration: none;
+	color: #606060;
 }
 
 #roundbtn{
 	border: 1px solid #707070;
 	background: #FFFFFF;
+	padding: 9px;
 	border-radius: 7px;
+	cursor: pointer;
+	transition-duration: 0.33s;
 }
 
-#fnt{
-	font-family:fantasy;
+#fntclr{
 	color: #606060;
-	font-weight: 500;
 }
 
 form{
-	/*align-self: center;*/
+	width: 224px;
 	text-align: center;
-	margin-left:5.5in;
-	margin-right:5.5in;
 	padding: 1cm;
 	border: 1px solid #606060;
+	display: block;
+	transition-duration: 0.33s;
+}
+
+form:hover{
+	box-shadow: 0 0 5px grey;
+}
+
+#form{
+	float: left;
+	margin-left: 512px;
+	margin-top: 156px;
+	box-shadow: 0 0 9px grey;
+	transform: scale(1.1, 1.1);
+}
+
+input{
+	font-weight: 512;
+	box-shadow: 0 0 5px grey;
+	margin: 10px auto;
+	transition-duration: 0.33s;
+}
+
+input:hover{
+	box-shadow: 0 0 10px grey;
+}
+
+#intro{
+	margin-left: 1024px;
+	margin-top: 216px;
+	transform: scale(1.2, 1.2);
+	width: 396px;
+}
+
+#intro > h1{
+	font-size: 36px;
+}
+
+#intro > p{
+	padding-left: 16px;
+	border-left: 3px solid #606060;
+	width: 341px;
+}
+
+form > a{
+	float: right;
+	margin-right: 9px;
+	font-size: 13px;
+	color: #606060;
+	display: block;
+}
+
+#roundbtn2{
+	display: block;
+	border: 1px solid #707070;
+	background: #FFFFFF;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border-radius: 7px;
+	margin-right: 12px;
+	margin-top: 33px;
+	cursor: pointer;
+}
+
+form > p{
+	margin-top: 40px;
+}
+
+#home{
+	margin-top: 225px;
+	margin-left: 192px;
+	transform: scale(1.2, 1.2);
+	width: 396px;
+}
+
+#home > h1{
+	font-size: 36px;
+}
+
+#home > p{
+	padding-left: 16px;
+	border-left: 3px solid #606060;
+	width: 341px;
+}
+
+#lsbuttons{
+	width: 156px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 18px;
+}
+
+button{
+	cursor: pointer;
+}
+
+#signupbtn > a{
+	color: #606060;
+}
+
+#roundbtn:hover{
+	box-shadow: 0 0 7px grey;
 }
