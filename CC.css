@@ -1,15 +1,9 @@
 @font-face{
-	font-family: SFProDisplayReg;
-	src: url(SF-Pro-Display-Regular.otf);
-}
-
-@font-face{
 	font-family: RobotoReg;
-	src: url(Roboto-Regular.ttf);
+	src: url(fonts/Roboto-Regular.ttf);
 }
 
 body{
-	/*font-family:SFProDisplayReg;*/
 	font-family: RobotoReg;
 	letter-spacing: -0.81px;
 }
