@@ -9,12 +9,13 @@
 }
 
 body{
-	font-family:SFProDisplayReg;
-	/*font-family: RobotoReg;*/
+	/*font-family:SFProDisplayReg;*/
+	font-family: RobotoReg;
+	letter-spacing: -0.81px;
 }
 
 #heading{
-	margin: 16px auto;
+	margin-top: 16px;
 }
 
 #heading > a{
@@ -27,6 +28,11 @@ body{
 #topbuttons{
 	width: 198px;
 	float: right;
+}
+
+#logo{
+	margin-right: 7px;
+	margin-bottom: -3px;
 }
 
 #btn{
@@ -47,6 +53,16 @@ body{
 button > a{
 	text-decoration: none;
 	color: #606060;
+	outline: none;
+}
+
+#roundbtn > a:active{
+	text-decoration: none;
+	outline: none;
+}
+
+#roundbtn{
+	outline: none;
 }
 
 #roundbtn{
@@ -88,25 +104,31 @@ input{
 	box-shadow: 0 0 5px grey;
 	margin: 10px auto;
 	transition-duration: 0.33s;
+	display: inline-block;
 }
 
 input:hover{
 	box-shadow: 0 0 10px grey;
 }
 
+input:focus{
+	outline: none;
+}
+
+
 #intro{
 	margin-left: 1024px;
-	margin-top: 216px;
+	margin-top: 225px;
 	transform: scale(1.2, 1.2);
-	width: 396px;
+	width: 431px;
 }
 
 #intro > h1{
-	font-size: 36px;
+	font-size: 33px;
 }
 
 #intro > p{
-	padding-left: 16px;
+	padding-left: 11px;
 	border-left: 3px solid #606060;
 	width: 341px;
 }
@@ -134,22 +156,32 @@ form > a{
 }
 
 form > p{
-	margin-top: 40px;
+	margin-top: 25px;
 }
 
 #home{
 	margin-top: 225px;
-	margin-left: 192px;
+	margin-left: 256px;
 	transform: scale(1.2, 1.2);
-	width: 396px;
+	width: 431px;
+	display: inline-block;
+}
+
+#image{
+	margin-top: 70px;
+	position: absolute;
+	margin-left: 128px;
+	display: inline-block;
+	transform: scale(0.7, 0.7);
+	box-shadow: 0 0 12px grey;
 }
 
 #home > h1{
-	font-size: 36px;
+	font-size: 33px;
 }
 
 #home > p{
-	padding-left: 16px;
+	padding-left: 11px;
 	border-left: 3px solid #606060;
 	width: 341px;
 }
